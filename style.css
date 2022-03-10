@@ -1,0 +1,138 @@
+body{
+  background-color: #cad2c5; 
+  max-height: 100vh;
+  max-width: 100vw;
+}
+.header{
+    width:100%;
+    background-color:hsl(203deg 20% 23%);
+    color: hsl(202deg 44% 95%);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.logo {
+  position: absolute;
+  top: 18px;
+  left: 25px;
+  width:30px;
+  height:30px;
+}
+img {
+  width:100%;
+  height:100%;
+  border-radius:50%;  
+}
+section{
+  display: flex;
+  justify-content: space-evenly;
+}
+.box1{
+  height:450px;
+  width:300px;
+  background-color:#353535;
+  margin-top:30px;
+  margin-left:25px;
+  border-radius: 30px
+}
+.text{
+  background-color:#353535;
+  width:430px;
+  border-radius:8px;
+  margin-top:30px;
+  margin-left: 80px;
+  height:30px;
+}
+.a{
+  background-color:#353535;
+  height:130px;
+  width:170px;
+  margin-top:50px;
+  border-radius:15px;
+  
+}
+
+.footer{
+  background-color:#353535;
+  height:160px;
+  width:600px;
+  margin-top:50px;
+  margin-left:15px;
+  border-radius:15px
+ }
+ 
+   @media(max-width: 768px) {
+    .header{
+      width:100%;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+      .text{
+        width:auto;
+        height:30px;
+        margin-top:20px;
+        margin-left:300px;
+      }
+      .a{
+        margin-top:50px;
+        margin-left: 250px;
+      
+      }
+      .footer{
+        width:600px;
+        margin-top:25px;
+        margin-left:50px;
+       }
+       .box1{
+        height:250px;
+        width:auto;
+        margin-top:15px;
+        margin-left:50px;
+      }
+    }
+  
+    @media(max-width: 360px) {
+      
+      .header{
+        width:100%;
+      }
+      section{
+        display: flex;
+        flex-direction:column
+      }
+      .section1{
+        display: flex;
+        flex-direction:column
+      }
+      .text{
+        margin-left:100px;
+        width:200px;
+        height:30px;
+        margin-top:5px;
+      }
+      .a{
+        margin-top:20px;
+        margin-left: 70px;
+      }
+      .footer{
+        width:300px;
+        margin-top:10px;
+        margin-left:15px;
+       }
+       .box1{
+        height:250px;
+        width:280px;
+        margin-top:15px;
+        margin-left:20px;
+      }
+      }
+
+
+
+
+ 
+ 
